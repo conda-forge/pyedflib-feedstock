@@ -14,14 +14,16 @@ Summary: Library to read/write EDF+/BDF+ files based on EDFlib.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyedflib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyedflib-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyedflib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyedflib-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyedflib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyedflib-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pyedflib-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pyedflib-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pyedflib-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pyedflib-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pyedflib-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pyedflib-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyedflib/badges/version.svg)](https://anaconda.org/conda-forge/pyedflib)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyedflib/badges/downloads.svg)](https://anaconda.org/conda-forge/pyedflib)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyedflib-green.svg)](https://anaconda.org/conda-forge/pyedflib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyedflib.svg)](https://anaconda.org/conda-forge/pyedflib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyedflib.svg)](https://anaconda.org/conda-forge/pyedflib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyedflib.svg)](https://anaconda.org/conda-forge/pyedflib) |
 
 Installing pyedflib
 ===================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
