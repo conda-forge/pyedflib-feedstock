@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
 {% set version = "0.1.14" %}
-{% set sha256 = "a50bdde9b4eb9fc6492f426f4039064c473cc3d57af69a1a6b6bf8889c0dedb5" %}
+{% set sha256 = "cd4a0747df1557d9d724f4cf91c8ea76a9a26c6d2280bb2696bb05334fc61bc6" %}
 
 
 package:
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256|lower }}
 
 build:
-  number: 1002
+  number: 1003
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
