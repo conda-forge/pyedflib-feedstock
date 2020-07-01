@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
-{% set version = "0.1.17" %}
-{% set sha256 = "98df227176ab1dc7c16d6ebe0f695235679c55a7be856dc3c1a6a88502d11d06" %}
+{% set version = "0.1.18" %}
+{% set sha256 = "63a14d025ccf2296891ffe8e64d74021bd9d4443392395e7961be549df467a57" %}
 
 
 package:
@@ -44,7 +44,7 @@ about:
   license_file: LICENSE
   dev_url: https://github.com/holgern/pyedflib
   doc_url: http://pyedflib.readthedocs.io/
-  summary: 'Library to read/write EDF+/BDF+ files based on EDFlib.'
+  summary: Library to read/write EDF+/BDF+ files based on EDFlib.
 
 extra:
   recipe-maintainers:
