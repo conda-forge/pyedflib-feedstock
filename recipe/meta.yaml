@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
-{% set version = "0.1.25" %}
-{% set sha256 = "5b5828cf20e4447721dc5d441f27d4af2939f57cf002734b61a05fc1e6cc7cd1" %}
+{% set version = "0.1.26" %}
+{% set sha256 = "c93e2048f97c2f4b3c530e23d528ac578681a1f48e5b07fe620599f118175e4e" %}
 
 
 package:
@@ -34,7 +34,7 @@ requirements:
 
 test:
   requires:
-    - nose
+    - pytest
   imports:
     - pyedflib
   commands:
