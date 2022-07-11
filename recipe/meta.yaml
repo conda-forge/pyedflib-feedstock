@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
-{% set version = "0.1.29" %}
-{% set sha256 = "a987b84a7ae12394dcf7e30382456dfde5520457405932ebdeebb25cec39d0df" %}
+{% set version = "0.1.30" %}
+{% set sha256 = "639af9b08eb50cf786167942fe4d57b29a5e3bf589979d1a49b9a9672f52cb8e" %}
 
 
 package:
