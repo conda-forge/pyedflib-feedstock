@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
-{% set version = "0.1.33" %}
-{% set sha256 = "09106f0527ffd1e66fd8087629865305b0b34e90793fa6735c278f804403291d" %}
+{% set version = "0.1.36" %}
+{% set sha256 = "3ae985444e673285e0eae552696205daf36164eeea71010ae35be3e2a4bc7525" %}
 
 
 package:
@@ -10,11 +10,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256|lower }}
+  sha256: {{ sha256 }}
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -33,11 +33,8 @@ requirements:
     - {{ pin_compatible('numpy') }}
 
 test:
-  requires:
-    - pytest
   imports:
     - pyedflib
-  commands:
 
 about:
   home: https://github.com/holgern/pyedflib
