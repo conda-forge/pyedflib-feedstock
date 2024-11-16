@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
-{% set version = "0.1.37" %}
-{% set sha256 = "75bd8a912f5d9d130ade21f7ad333778c57621a3bcf9ed3c1611c7c90f260e2d" %}
+{% set version = "0.1.38" %}
+{% set sha256 = "6a0fe727ea4cf18de63c6ede43a6c2d151f474aba6ebde0c6f9a5cf09711bbdd" %}
 
 
 package:
@@ -9,11 +9,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
   sha256: {{ sha256|lower }}
 
 build:
-  number: 3
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
