@@ -1,6 +1,6 @@
 {% set name = "pyEDFlib" %}
-{% set version = "0.1.38" %}
-{% set sha256 = "6a0fe727ea4cf18de63c6ede43a6c2d151f474aba6ebde0c6f9a5cf09711bbdd" %}
+{% set version = "0.1.40" %}
+{% set sha256 = "07136a33fc6c166e6b68a8d95ac77d2cb14aedf971d077a73d95a796975cc12b" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
   sha256: {{ sha256|lower }}
 
 build:
